@@ -10,9 +10,9 @@
     "e2e": "ng e2e",
     "extract": "ng xi18n --output-path=locale",
     "start:fr": "ng serve --configuration=fr",
-    "build:fr": "ng build --configuration=production-fr",
+    "build:fr": "ng build --configuration=production-fr --base-href /i18n-demo/fr/",
     "start:ja": "ng serve --configuration=ja",
-    "build:ja": "ng build --configuration=production-ja"
+    "build:ja": "ng build --configuration=production-ja --base-href /i18n-demo/ja/"
   },
   "private": true,
   "dependencies": {
